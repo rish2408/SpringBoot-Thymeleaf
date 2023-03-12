@@ -1,5 +1,5 @@
 # Thymeleaf with Spring Boot
-- Thymeleaf is a server-side Java template engine that can be integrated with Spring Boot. It allows for the creation of dynamic web pages with HTML, CSS, and JavaScript. This tutorial will cover the following concepts in Thymeleaf: Iteration, Conditional Statements, Fragments, Inheriting Thymeleaf Template, and how to add custom and bootstrap JS and CSS files.
+- Thymeleaf is a server-side Java template engine that can be integrated with Spring Boot. It allows for the creation of dynamic web pages with HTML, CSS, and JavaScript. I will cover the following concepts in Thymeleaf: Iteration, Conditional Statements, Fragments, Inheriting Thymeleaf Template, and how to add custom and bootstrap JS and CSS files.
 
 ## Prerequisites
 - To follow this tutorial, you will need:
