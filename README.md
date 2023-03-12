@@ -71,5 +71,10 @@
 - To add custom CSS and JS files to your Thymeleaf templates, you can use the th:href attribute. This attribute allows you to specify the location of the file.
 
 ```
-
+	<!-- <link rel="stylesheet" th:href="@{/css/style.css}" /> -->
+	<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+```
+```
+	<!-- <script type="text/javascript" th:src="@{js/script.js}"></script> -->
+	<script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
 ```
