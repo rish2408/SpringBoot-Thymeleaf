@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Adding CSS JS Image Page</title>
+	<!-- <link rel="stylesheet" th:href="@{/css/style.css}" /> -->
+	<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" />
+</head>
+<body>
+	
+	<div class="container">
+		
+		<img alt="" class="profile" th:src="@{image/Rishabh.jpg}" />
+	
+		<h1>Adding CSS, Javascript and Image in Thymeleaf</h1>
+		
+		<p>I have a cure for insomnia. It’s probably worth millions of dollars but I’m giving it to you 
+			free. It isn’t warm milk or chamomile tea. It’s list making. List stuff from your life like all 
+			your teachers or all the live music you’ve seen or all the Paul Newman movies you’ve watched.</p>
+	</div>
+	
+	<!-- <script type="text/javascript" th:src="@{js/script.js}"></script> -->
+	<script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
+</body>
+</html>

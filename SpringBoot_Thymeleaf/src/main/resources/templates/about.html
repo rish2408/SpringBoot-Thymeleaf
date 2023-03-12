@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>About Page</title>
+</head>
+<body>
+	<section>
+			<h2>About Page</h2>
+			<h2>Learning Thymeleaf with SpringBoot Project</h2>
+			<h2>My name is <span th:text="${name}"></span></h2>
+			<h2>My name in uppercase is <span th:text="${#strings.toUpperCase(name)}"></span></h2>
+			<h2>Length in my name is <span th:text="${#strings.length(name)}"></span></h2>
+			<h2>Current date is <span th:text="${currentDate}"></span></h2>
+	
+			<!-- Creating variable locally -->
+	
+			<div th:with="a=5, b=10, n=${name}">
+				<h2>Value of a is <span th:text="${a}"></span></h2>
+				<h2>Value of b is <span th:text="${b}"></span></h2>
+				<h2>Sum of a and b is <span th:text="${a+b}"></span></h2>
+				<h2>My name is <span th:text="${n}"></span></h2>
+			</div>
+	
+			<h2>Cannot access local variable name value <span th:text="${n}"></span></h2>
+	</section>
+</body>
+</html>
